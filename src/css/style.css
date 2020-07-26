@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica, sans-serif;
+}
+
+/* customize color */
+.text-dark{
+    color: #000000;
+}
+.text-light{
+    color: #fefefc;
+}
+.text-dark-green{
+    color: #016442;
+}
+.bg-soft-green{
+    background: rgb(107,220,44);
+    background: linear-gradient(90deg, rgba(107,220,44,1) 0%, rgba(58,255,13,1) 50%);
+}
+
+.bg-img{
+    height: 100vh;
+    background-image: url("/src/img/Leaves.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bg-img .container{
+    height: 100vh;
+    position: relative;
+}
+.vertical-center{
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    right: 50%;
+}
+
+.btn{
+    padding: .5rem 1rem;
+}
+
+@media screen and (max-width: 450px){
+    .vertical-center{
+        position: relative;
+        right: 0%;
+        top: 35%; 
+    }
+    h1{
+        text-align: center;
+    }
+    #hero-button{
+        position: absolute;
+        left: 25vw;
+    }
+    p{
+        font-size: .75rem;
+    }
+}
+
+
