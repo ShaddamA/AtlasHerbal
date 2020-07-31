@@ -55,6 +55,13 @@ h3{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.bg-img-3{
+    height: 80vh;
+    background-image: url("/src/img/produk/keringKentang1.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
 .vertical-center{
     margin: 0;
     position: absolute;
@@ -86,15 +93,18 @@ h3{
         right: 0%;
         top: 35%; 
     }
-    h1{
+    h2{
         text-align: center;
     }
     #hero-button{
         position: absolute;
-        left: 25vw;
+        left: 20vw;
     }
     p{
         font-size: .75rem;
+    }
+    .btn-show{
+        margin-top: 48px;
     }
 }
 
