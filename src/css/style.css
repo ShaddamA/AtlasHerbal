@@ -29,20 +29,28 @@ h3{
 .text-dark-green{
     color: #016442;
 }
+/*  Background Customize    */
 .bg-gradient-green{
     background: rgb(107,220,44);
     background: linear-gradient(90deg, rgba(107,220,44,1) 0%, rgba(58,255,13,1) 50%);
 }
 .bg-green{
-    background: rgb(58,255,13,1);    
+    background: #3aff00;   
 }
-
 .bg-img-1{
     height: 100vh;
     background-image: url("/src/img/Leaves.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.bg-img-1-fixed{
+    height: 100vh;
+    background-image: url("/src/img/Leaves.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 .bg-img-1 .container{
     height: 100vh;
@@ -70,10 +78,10 @@ h3{
 }
 
 .btn{
-    padding: .75rem 2rem;
+    padding: .7rem 1.75rem;
 }
 #btn-order{
-    padding: 0.5rem 64px;
+    padding: .5rem 2.5rem;
 }
 
 .card-title h3{
@@ -89,22 +97,33 @@ h3{
 
 @media screen and (max-width: 450px){
     .vertical-center{
-        position: relative;
-        right: 0%;
-        top: 35%; 
-    }
-    h2{
+        height: 100vh;
+        position: static;
         text-align: center;
+        padding-top: 65vh;
     }
-    #hero-button{
-        position: absolute;
-        left: 20vw;
+    h3{
+        font-size: 1.3rem;
+        margin: auto;
+        text-align: center;
     }
     p{
         font-size: .75rem;
     }
-    .btn-show{
-        margin-top: 48px;
+}
+
+@media screen and (max-width: 768px){
+    .carousel-item{
+        max-height: 85vh;
+    }
+    .product-content{
+        order: 2;
+    }
+    .product-image{
+        order: 1;
+    }
+    .bg-img-2, .bg-img-3{
+        height: 40vh;
     }
 }
 
