@@ -37,38 +37,29 @@ h3{
 .bg-green{
     background: #3aff00;   
 }
-.bg-img-1{
-    height: 100vh;
-    background-image: url("/src/img/Leaves.png");
+.bg-img{
+    height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bg-img-1-fixed{
-    height: 100vh;
-    background-image: url("/src/img/Leaves.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+.img-1{
+    background-image: url("/src/img/Leaves.png");    
+}
+.img-2{
+    background-image: url("/src/img/produk/jusBawangPutih1.jpg");  
+}
+.img-3{
+    background-image: url("/src/img/produk/keringKentang1.jpeg");    
+}
+.img-4{
+    background-image: url("/src/img/produk/lumpia1.jpg");    
+}
+.img-5{
+    background: url("/src/img/hiasan.png");
+}     
+.bg-attachment-fixed{
     background-attachment: fixed;
-}
-.bg-img-1 .container{
-    height: 100vh;
-    position: relative;
-}
-.bg-img-2{
-    height: 80vh;
-    background-image: url("/src/img/produk/jusBawangPutih1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bg-img-3{
-    height: 80vh;
-    background-image: url("/src/img/produk/keringKentang1.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
 }
 .vertical-center{
     margin: 0;
@@ -116,7 +107,7 @@ h3{
     .carousel-item{
         max-height: 85vh;
     }
-    .product-content{
+    .content{
         order: 2;
     }
     .product-image{
