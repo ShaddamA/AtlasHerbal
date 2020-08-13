@@ -87,8 +87,6 @@ body{
     font-family: 'Alright Sans Regular' sans-serif ;
 }
 
-
-
 @media screen and (max-width: 450px){
     .vertical-center{
         height: 100vh;
