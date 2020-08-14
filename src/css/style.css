@@ -77,6 +77,9 @@ body{
 #btn-order{
     padding: .5rem 2.5rem;
 }
+.btn-wa{
+    width: 20%;
+}
 
 .card-title h3{
     font-size: 2vw;
@@ -85,6 +88,10 @@ body{
 .card-text p{
     font-size: 1.3vw;
     font-family: 'Alright Sans Regular' sans-serif ;
+}
+
+.top-20{
+    top: 20vh;
 }
 
 @media screen and (max-width: 450px){
@@ -102,6 +109,12 @@ body{
     p{
         font-size: .75rem;
     }
+    .btn-wa{
+        width: 50%;
+    }
+    .top-20{
+        top: 10vh;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -117,6 +130,10 @@ body{
     }
     .bg-img-2, .bg-img-3{
         height: 40vh;
+    }
+    .caption{
+        height: 27vh;
+        overflow-y: scroll;
     }
 }
 
