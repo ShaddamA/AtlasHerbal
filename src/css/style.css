@@ -94,6 +94,10 @@ body{
     top: 20vh;
 }
 
+.rounded-border{
+    border-radius: 64px;
+}
+
 @media screen and (max-width: 450px){
     .vertical-center{
         height: 100vh;

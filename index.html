@@ -26,10 +26,10 @@
                         <a class="nav-link active" aria-current="page" href="reseller.html">Reseller</a>
                     </li>
                     <li class="nav-item mr-5">
-                        <a class="nav-link active" href="index.html">Kontak</a>
+                        <a class="nav-link active" href="#product">Produk</a>
                     </li>
                     <li class="nav-item mr-5">
-                        <a class="nav-link active" href="index.html">Tentang Kami</a>
+                        <a class="nav-link active" href="#contact">Kontak</a>
                     </li>
                     <li class="nav-item mr-5">
                         <a class="nav-link active" href="#">
@@ -42,25 +42,28 @@
           </nav>
     </header>
     <main>
-        <section class="section-full">
+        <section id="hero">
             <div class="bg-img-full img-1">
-                <div class="container">
-                    <div class="vertical-center">
-                        <h3 class="text-dark-green font-weight-bold w-75">Menyediakan produk herbal dan makanan lezat bergizi</h3>
-                        <div class="btn-show">
-                            <a href="#product">
-                                <button id="hero-button" type="button" class="btn rounded-pill bg-green text-light">LIHAT PRODUK</button>
-                            </a>
-                        </div>
+                <div class="vertical-center">
+                    <h3 class="text-dark-green font-weight-bold w-75">Menyediakan produk herbal dan makanan lezat bergizi</h3>
+                    <div class="btn-show">
+                        <a href="#product">
+                            <button id="hero-button" type="button" class="btn rounded-pill bg-green text-light">LIHAT PRODUK</button>
+                        </a>
                     </div>
                 </div>
             </div>
         </section>
-        <section>
-            <div class="container" id="product">
+        <section class="mt-5" id="product">
+            <div class="container">
                 <!-- CAROUSEL -->
-                <div id="carouselExampleControls" class="carousel slide shadow-lg" data-ride="carousel-" style="border-radius: 64px; min-height: 80vh; max-height: 80vh;" >
-                    <div class="carousel-inner" style="border-radius: 64px;">
+                <div id="carouselExampleControls" class="carousel slide shadow-lg rounded-border" data-ride="carousel-" style="min-height: 80vh; max-height: 80vh;" >
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner rounded-border">
                         <!-- FIRST SLIDE --> 
                         <div class="carousel-item active">
                             <div class="row d-flex flex-lg-wrap shadow-lg" data-ride="carousel">            
@@ -76,7 +79,7 @@
                                            <p>Membantu penyembuhan dan pencegahan penyakit jantung, maag, asma, asam urat, vertigo, diabetes, stroke, flu, rematik, obesitas, osteoporosis, darah tinggi, kolestrol, kekentalan darah, pengapuran, mencegah masuk angin, kaki tangan kesemutan, menambah stamina, menurunkan/menormalkan tekanan darah, dll.</p>
                                            <p>Tersedia ukuran 650ml dan 330ml</p> 
                                         </div>
-                                        <div class="text-center" style="width: 100%;">
+                                        <div class="text-center w-100">
                                             <a href="#">
                                                 <button type="button" class="btn rounded-pill bg-green text-light" id="btn-order">Pesan</button>
                                             </a>
@@ -100,7 +103,7 @@
                                             <p>Dibuat dari kentang asli dan bahan lainnya yang terjamin kualitas dan kebersihannya.</p>
                                             <p>Ada 3 pilihan topping yang dapat anda pilih, yaitu polosan, kacang, atau teri. Silahkan dipesan!!!</p>
                                         </div>
-                                        <div class="text-center" style="width: 100%;">
+                                        <div class="text-center w-100">
                                             <a href="#">
                                                 <button type="button" class="btn rounded-pill bg-green text-light" id="btn-order">Pesan</button>
                                             </a>
@@ -120,9 +123,23 @@
                                     <hr class="w-25">
                                     <div class="caption">
                                         <div class="pt-md-3 pl-5 pr-5">
-                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam fugiat officia reprehenderit harum et voluptatem, nesciunt consequatur, corrupti, quia fugit magni! Dolores eligendi voluptatem ducimus eum suscipit, aut maxime illo!</p>
+                                            <p>Sedang cari oleh-oleh khas Semarang? Atau rindu dengan citarasa otentik lumpia?</p>
+                                            <p>Menawarkan lumpia khas Semarang yang lezat, diolah dengan bahan-bahan yang halal dan toyyib. Aroma rebung tidak pesing dan tektur tidak keras, kulit renyah kress. Tersedia ukuran mini dan unyil, pas untuk disantap bersama keluarga dengan harga yang bersahabat</p>
+                                            <p class="mb-0">Tersedia 4 varian rasa</p>
+                                            <ol>
+                                                <li>Special udang (rebung,udang,telur)</li>
+                                                <li>Special ayam (rebung,ayam,telur)</li>
+                                                <li>Vegetarian (rebung,jamur tiram)</li>
+                                                <li>Istimewa (rebung,udang,ayam,telur)</li>
+                                            </ol>
+                                            <ul>
+                                                <li>Lumpia spesial varian udang/ayam/vegetarian Rp. 25.000,-/pack mika isi 5. Frozen</li>
+                                                <li>Lumpia Istimewa Rp. 30.000,-/pack mika isi 5. Frozen</li>
+                                            </ul>
+                                            <p>Packing doz dikemas vacuum untuk pengiriman luar kota. (biaya 3.000/plastik.)</p>
+                                            <p>*Goreng tambah 3.000/pack isi 10. (Hari kerja)</p>
                                         </div>
-                                        <div class="text-center" style="width: 100%;">
+                                        <div class="text-center w-100">
                                             <a href="#">
                                                 <button type="button" class="btn rounded-pill bg-green text-light" id="btn-order">Pesan</button>
                                             </a>
@@ -154,12 +171,12 @@
                         <h3>081215515099</h3>
                     </div>
                     <div class="col-lg-6 d-flex justify-content-center">
-                        <img src="./src/img/icon-phone.png" alt="Icon HP" width="50%">
+                        <img src="./src/img/icon-phone.webp" alt="Icon HP" width="50%">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-6 d-flex justify-content-center">
-                        <img src="./src/img/icon-mail.png" alt="Icon Mail" width="50%">
+                        <img src="./src/img/icon-mail.webp" alt="Icon Mail" width="50%">
                     </div>  
                     <div class="col-lg-6 text-center d-flex flex-column align-self-center content">
                         <h1>EMAIL</h1>
