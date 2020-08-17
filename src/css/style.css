@@ -110,7 +110,7 @@ body{
         margin: auto;
         text-align: center;
     }
-    p{
+    p, li{
         font-size: .75rem;
     }
     .btn-wa{
