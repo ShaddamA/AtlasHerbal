@@ -98,6 +98,11 @@ body{
     border-radius: 64px;
 }
 
+.caption{
+    height: 50vh;
+    overflow-y: scroll;
+}
+
 @media screen and (max-width: 450px){
     .vertical-center{
         height: 100vh;
@@ -137,7 +142,6 @@ body{
     }
     .caption{
         height: 27vh;
-        overflow-y: scroll;
     }
 }
 
